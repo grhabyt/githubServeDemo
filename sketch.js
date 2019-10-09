@@ -10,16 +10,16 @@ function preload(){
 function setup() {
   createCanvas(1080,1920);
   xpos1 = random(width);
-    ypos1= random(1920,2300);
-    speed1 = random (1,8);
+    ypos1= random(1920,2100);
+    speed1 = random (10,20);
 
     xpos2 = random(width);
-    ypos2= random(1920,2300);
-    speed2 = random (1,8);
+    ypos2= random(1920,2100);
+    speed2 = random (10,20);
 
     xpos3 = random(width);
-    ypos3= random(1920,2300);
-    speed3 = random (1,8);
+    ypos3= random(1920,2100);
+    speed3 = random (10,20);
 
     counter = 0; //this counts the number of resets
 
